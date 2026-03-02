@@ -20,7 +20,8 @@ Scores update automatically, and a reset button lets you restart the game anytim
 ## 🧠 How It Works
 
 - The user clicks one of the three choices  
-- JavaScript compares the user's choice with the computer's  
+- The computer randomly selects its move
+- JavaScript compares the user's choice with the computer's choice
 - The winner is determined using standard RPS rules  
 - Scores update dynamically  
 - The reset button clears everything back to zero  
@@ -44,16 +45,6 @@ Scores update automatically, and a reset button lets you restart the game anytim
 - **HTML5** - structure  
 - **CSS3** - styling and layout  
 - **JavaScript (ES6)** - game logic  
-
----
-
-## 📸 Screenshot (Optional)
-
-_Add a screenshot here if you want:_
-
-```
-![Game Screenshot](screenshot.png)
-```
 
 ---
 
