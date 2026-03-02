@@ -56,7 +56,7 @@ Scores update automatically, and a reset button lets you restart the game anytim
 
 ---
 
-## 🔧 Future Improvements (Optional Ideas)
+## 🔧 Future Improvements
 
 - Add sound effects  
 - Add animations  
