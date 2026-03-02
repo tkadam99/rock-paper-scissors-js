@@ -84,3 +84,12 @@ _Add a screenshot here if you want:_
 This project is free to use and modify.
 
 ---
+
+## **Author**
+Tanmay Kadam
+
+Software Developer | JavaScript Enthusiast
+
+GitHub: [tkadam99]
+
+---
