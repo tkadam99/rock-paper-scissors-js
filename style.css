@@ -69,3 +69,20 @@ img {
   padding: 1rem;
   border-radius: 1rem;
 }
+
+#reset-btn {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: #c4c934;
+  color: black;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+
+#reset-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

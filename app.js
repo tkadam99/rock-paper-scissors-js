@@ -1,8 +1,13 @@
+
+
 let userScore = 0;
 let computerScore = 0;
 
 const choices = document.querySelectorAll('.choice');
 const msg = document.querySelector('#msg');
+const resetBtn = document.querySelector('#reset-btn');
+resetBtn.disabled = true;
+
 
 const computerChoices = ['rock', 'paper', 'scissors'];
 
@@ -48,6 +53,9 @@ choices.forEach(choice => {
         const userChoice = choice.id;
         // console.log(choice);
         // console.log(`User chose: ${userChoice}`);
+
+        resetBtn.disabled = false;
+
         playGame(userChoice);
     });
 });
@@ -58,3 +66,11 @@ const updateScore = () => {
     document.getElementById('user-score').textContent = userScore;
     document.getElementById('computer-score').textContent = computerScore;
 }
+
+resetBtn.addEventListener('click', () => {
+    userScore = 0;
+    computerScore = 0;
+    updateScore();
+    msg.innerText = 'Game reset! Make your move!';
+    msg.style.backgroundColor = '#081b31';
+});
