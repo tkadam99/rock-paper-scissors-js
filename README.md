@@ -1,8 +1,3 @@
-Here's a clean, ready-to-paste **README.md** for your Rock-Paper-Scissors project.  
-It's simple, clear, and looks great on GitHub.
-
----
-
 # 🪨📄✂️ Rock-Paper-Scissors Game
 
 A simple and interactive **Rock-Paper-Scissors** game built using **HTML, CSS, and JavaScript**.  
